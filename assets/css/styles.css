@@ -49,6 +49,25 @@
     height: 422px;
 }
 
+.game-over-soon{
+    position: relative;
+    width: 480px;
+    margin: auto;
+    display: block;
+}
+
+.continue {
+    position: relative;
+    margin:auto;
+    display: flex;
+}
+
+.exit {
+    position: relative ;
+    margin: auto;
+    display:flex;
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
