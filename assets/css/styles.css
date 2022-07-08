@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +51,19 @@
     height: 422px;
 }
 
+.game-over-soon-before{
+    width: 1px;
+    
+}
+
+.continue-before{
+    width: 1px;
+}
+
+.exit-before{
+    width: 1px;
+}
+
 .game-over-soon{
     position: relative;
     width: 480px;
@@ -67,6 +82,18 @@
     margin: auto;
     display:flex;
 }
+
+.count {
+    position: relative;
+    font-size: 25px;
+    font-family:'Bangers', cursive;
+    color: #e41f1f;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
 
 @keyframes pipe-animation {
     from {
@@ -126,5 +153,9 @@
         height: 117px;
 
 
+    }
+
+    .count {
+        margin-right: 25px;
     }
 }
